@@ -2,13 +2,14 @@ PyTorch Linear Regression
 PyTorch实现线性回归
 
 包括模型训练、保存、推理使用等
-
+```
 输入输出维度可以都是一维的   
 torch.nn.Linear(1, 1)
 输入可以多维输出可以是一维的
 torch.nn.Linear(10, 1)
-
+```
 整个文件夹结构如下
+```
 ├── checkpoint
 │   └── model.pth
 ├── config.py
@@ -27,7 +28,7 @@ torch.nn.Linear(10, 1)
 │   └── merge_csv.py
 ├── trainner.py
 └── utils.py
-
+```
 数据集部分
 数据集包括在data文件夹中
 train.csv文件存储了训练集
